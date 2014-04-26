@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="azul">#168DBA</color>
+    <color name="cinza">#DEDEDE</color>
+    <color name="cinza_escuro">#999999</color>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nome_app">MusicPlayer</string>
+    <string name="anterior">Anterior</string>
+    <string name="tocar_pausar">Tocar/Pausar</string>
+    <string name="proxima">Próxima</string>
+    <string name="nenhuma_musica">Nenhuma música encontrada</string>
+
+</resources>
