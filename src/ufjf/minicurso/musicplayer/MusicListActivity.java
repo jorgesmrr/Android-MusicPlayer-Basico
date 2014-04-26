@@ -182,10 +182,14 @@ public class MusicListActivity extends ListActivity implements
 	/** Método executado quando o usuário toca em um item da ListView **/
 	@Override
 	protected void onListItemClick(ListView lista, View viewMusica,
-			int posicao, long id) {		
-		tocar(musicas.get(posicao), viewMusica);
+			int posicao, long id) {
+		//Só toca a música se não for a atual
+		if (posicao != musicas.indexOf(musicaAtual))
+			tocar(musicas.get(posicao), viewMusica);
+		
+		//Exibe ícone de Pausa
 		((ImageView) findViewById(R.id.imv_tocar))
-				.setImageResource(R.drawable.ic_action_pause);		
+				.setImageResource(R.drawable.ic_action_pause);
 	}
 
 	/** Método executado sempre que o MediaPlayer termina de tocar uma música **/

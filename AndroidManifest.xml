@@ -9,6 +9,7 @@
         android:minSdkVersion="10"
         android:targetSdkVersion="19" />
 
+    <!-- Necessário para que o aplicativo possa ler dados da mídia externa -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -16,6 +17,8 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/nome_app"
         android:theme="@style/AppTheme" >
+
+        <!-- Toda Activity do projeto precisa estar indicada para que o sistema a reconheça -->
         <activity
             android:name="ufjf.minicurso.musicplayer.MusicListActivity"
             android:label="@string/nome_app" >
